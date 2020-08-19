@@ -1,0 +1,7 @@
+.monitor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgb(109, 43, 109);
+  overflow: hidden;
+}
