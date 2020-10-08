@@ -50,8 +50,7 @@
 
 .start__logo::after {
   content: "";
-  background: url(https://banner2.kisspng.com/20180821/hrt/kisspng-windows-95-windows-98-microsoft-windows-transparen-windows-95-telegram-stickers-directory-5b7c3cffc178a8.4526616315348687357925.jpg)
-    transparent;
+  background: url(https://banner2.kisspng.com/20180821/hrt/kisspng-windows-95-windows-98-microsoft-windows-transparen-windows-95-telegram-stickers-directory-5b7c3cffc178a8.4526616315348687357925.jpg) transparent no-repeat;
   background-size: contain;
   mix-blend-mode: multiply;
   top: 0;
@@ -72,6 +71,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .start__time {
   width: 80px;
   height: 72%;
@@ -101,10 +101,16 @@
   border-right: 2px solid black;
   border-bottom: 2px solid black;
   width: 8%;
-  display: none;
+  /* display: none; */
   position: absolute;
   bottom: 38px;
   z-index: 99999;
+}
+
+.menu-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .start__menu-main-side {
@@ -239,8 +245,10 @@
 img {
   width: 32px;
   background: transparent;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); /* IE6 & 7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+  /* IE8 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+  /* IE6 & 7 */
   zoom: 1;
 }
 
@@ -250,6 +258,7 @@ img {
   cursor: pointer;
   background: purple;
 }
+
 .linkedin-icon,
 .email-icon {
   width: 32px;
@@ -257,4 +266,23 @@ img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 32 32'%3E%3Cpath d='M7 23L23 7M23 23L7 7M15 26V4M26 15H4' stroke='black' stroke-width='2'/%3E%3Ccircle cx='15' cy='15' r='7'/%3E%3Ccircle cx='13' cy='13' r='2' fill='white'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/* social media buttons */
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 25px;
+  margin: 2px;
+  align-self: center;
+  border: outset 2px;
+}
+
+.stripe {
+  height: 100%;
+  width: 1px;
+  border: inset 1px;
 }

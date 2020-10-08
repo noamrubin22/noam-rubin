@@ -1,0 +1,13 @@
+.test {
+    /* background: green; */
+    /* display: none; */
+    width: 8%;
+    border-left: 2px solid #deebf3;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: 38px;
+    border-top: 2px solid #deebf3;
+    background: #c3c6cd;
+    z-index: 99999;
+}
