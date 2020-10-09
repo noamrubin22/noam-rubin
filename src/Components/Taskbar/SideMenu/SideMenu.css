@@ -13,21 +13,22 @@
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     width: 10%;
-    /* display: none; */
     position: absolute;
     bottom: 38px;
     z-index: 99999;
-    /* display: flex; */
+    display: flex;
+
 }
 
 .start__menu-main-side {
     background: #85888f;
-    width: 15%;
+    width: 12%;
 }
 
 .start__menu-main-side-text {
     position: relative;
     margin-top: 70px;
+    font-size: 17px;
 }
 
 .start__menu-main-side-text .windows {
@@ -41,7 +42,7 @@
     color: white;
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
-    margin-bottom: 56px;
+    margin-bottom: 65px;
 }
 
 .start__menu-main-items {
@@ -50,14 +51,14 @@
 }
 
 .start__menu-main-items .icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .start__menu-main-items-item {
-    font-size: 12px;
+    font-size: 11px;
     padding-top: 3px;
     padding-bottom: 3px;
     width: 100%;
@@ -155,4 +156,9 @@
 
 .start__menu-sub-items-item-title {
     margin: 7px 0;
+}
+
+#contact-img {
+    width: 19px;
+    padding: 5px 5px 0px 5px;
 }

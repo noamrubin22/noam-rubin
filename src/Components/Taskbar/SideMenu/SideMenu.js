@@ -6,7 +6,7 @@ export default function SideMenu() {
         <div className="start__menu-main" >
             <div className="start__menu-main-side" >
                 <div className="start__menu-main-side-text text" >
-                    <p className="ninefive">  95</p>
+                    <p className="ninefive"> 95</p>
                     <p className="windows">Windows </p>
                 </div>
             </div>
