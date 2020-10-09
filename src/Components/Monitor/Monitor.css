@@ -2,6 +2,35 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: rgb(109, 43, 109);
+  background: url("http://api.thumbr.it/whitenoise-361x370.png?background=5f1a8aff&noise=593459&density=100&opacity=80");
   overflow: hidden;
+}
+
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear.appear-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 600ms linear
 }
